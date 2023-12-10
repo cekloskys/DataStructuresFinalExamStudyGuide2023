@@ -41,6 +41,7 @@ def testNode():
     print('S contains', node.listLength(s), ('node' if node.listLength(s) == 1 else 'nodes'))
     print('Q contains', node.listLength(q), ('node' if node.listLength(q) == 1 else 'nodes'))
 
+# Question 7
 def evenOrOdd():
     odd = queue()
     even = stack()
@@ -64,6 +65,7 @@ def evenOrOdd():
         print(even.pop(), end=" ")
     print()
 
+# Question 8
 def testRecursion():
     # loops.sing(3)
     recursion.sing(3)
